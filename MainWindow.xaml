@@ -5,15 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp21"
         mc:Ignorable="d"
+        ResizeMode="CanMinimize"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Text="Введите ключ" Margin="38,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="286"/>
         <TextBox x:Name="txtbox1" HorizontalAlignment="Left" Height="30" Margin="38,56,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="282"/>
-        <Button Content="Поиск" HorizontalAlignment="Right" Margin="0,41,90,0" VerticalAlignment="Top" Click="Button_Search" Width="256" Height="45"/>
-        <Button Content="Результат" HorizontalAlignment="Right" Margin="0,120,90,0" VerticalAlignment="Top" Click="Button_result" Width="256" Height="42"/>
+        <Button Content="Поиск" HorizontalAlignment="Right" Margin="0,114,90,0" VerticalAlignment="Top" Click="Button_Search" Width="256" Height="45"/>
+        <!--<Button Content="Результат" HorizontalAlignment="Right" Margin="0,120,90,0" VerticalAlignment="Top" Click="Button_result" Width="256" Height="42"/>-->
         <Button Content="Удалить" HorizontalAlignment="Right" Margin="0,196,90,0" VerticalAlignment="Top" Click="Button_remove" Width="256" Height="43"/>
         <Button Content="Вывести все" HorizontalAlignment="Right" Margin="0,346,472,0" VerticalAlignment="Top" Click="Button_Export" Width="256" Height="46"/>
-        <TextBox x:Name="slov" HorizontalAlignment="Left" Height="167" Margin="59,155,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="265"/>
+        <TextBox x:Name="slov" HorizontalAlignment="Left" Height="167" Margin="59,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="265"/>
         <Button Content="Удалить все" HorizontalAlignment="Right" Margin="0,276,90,0" VerticalAlignment="Top" Click="Button_RemoveAll" Width="256" Height="46"/>
 
     </Grid>
